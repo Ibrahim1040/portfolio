@@ -1,0 +1,213 @@
+html{
+	position: relative;
+	min-height: 100%;
+}
+/*Css du Header*/
+
+
+/* Fin du header */
+
+/*Début du body*/
+body{
+	margin-bottom: 60px;
+}
+.bodyBlack{
+
+	background-color: black;
+}
+/*Accueil*/
+.bodyAccueil{
+	background-image: url("../image/image4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+/*Contact*/
+.lienMail,.lienPhone,.lienGsm{
+	text-decoration:none;
+	color: grey;
+
+}
+.contact{
+	transform:rotate(270deg);
+}
+.terre{
+	margin-top: 10vw;
+	padding-left: 15vw;
+}
+.adresse,.contactez{
+	color: grey;
+	font-size: 1vw;
+}
+.coordonnees{
+	color: white;
+	padding-top: 15vw;
+	font-size: 2vw;
+	margin-bottom: 2vw;
+}
+.nomPrenom{
+	padding-bottom: 1vw;
+}
+/*competence*/
+.competence{
+	text-align: center;
+}
+.baseDonnees{
+	color: white;
+	font-size: 2vw;
+	text-align: center;
+	position: relative;
+}
+.espaceTexte{
+	/*line-height: 1vw;*/
+	position: relative;
+}
+.listeBaseDeDonnees{
+	text-align: center;
+	padding-top: 5.2vw;
+}
+
+.langueDe{
+	/*position: absolute;*/
+	/*top: 2vw;*/
+	/*left: 24vw;*/
+}
+hr.ligneTexteLangue{
+	position: absolute;	
+	border-color: #ffffff;
+	border-width: 3px;
+	width: 9.5%;
+	/*margin-top: -5px;*/
+	top : 3vw;
+	left: 15.5vw;
+}
+.programmationTexte{
+	font-size: 0.7vw;
+	position: absolute;
+	top: 3.3vw;
+	left: 21.3vw;
+}
+
+
+.lesOutils{
+	/*position:absolute;*/
+	top: 2vw;
+	left: 25vw;
+}
+.ligneTexteOutils{
+	/*position: absolute;*/
+	top : 3.5vw;
+	left: 25vw;
+}
+.utilisesTexte{
+	/*position: absolute;*/
+	top: 3.7vw;
+	left: 25vw;
+}
+.rectangle{
+ width:40vw;
+ height:35vw;
+ background:#171717;
+ margin:10px auto;
+ margin-top: 10vw;
+ padding-top: 3vw;
+}
+/*.souligner{
+	text-decoration: underline;
+}*/
+/*portfolio*/
+.portfolio{
+	transform:rotate(90deg);
+}
+.contactPortfolio{
+	margin-top: 20vw;
+}
+/*propos*/
+.propos{
+	margin-top: 15vw;
+}
+/*Fin du body*/
+
+/*Debut du footer*/
+.footer{
+	color: white;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	  bottom: 0;
+	  width: 100%;
+	  height: 60px; /* Set the fixed height of the footer here */
+	  line-height: 60px; /* Vertically center the text there */
+	 
+
+}
+/*Fin du footer*/
+.textWhite{
+	color: white;
+}
+.textRed{
+	color: red;
+}
+
+.fontSize50{
+	font-size: 50px;
+}
+.post{
+	color: white;
+}
+a.post:hover{
+	color: red;
+	text-decoration: none;
+}
+/*navigation*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+	text-align: center;  
+}
+li {
+  /*float: left;*/
+  font-size:2vw;
+  display: inline;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+li a {
+  /*display: block;*/
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  color: red;
+  text-decoration: none;
+}
+.navigation{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2vw;
+	background-color: black;
+	z-index: 9999;
+}
+.navBlack{
+	background-color: black;
+
+}
+
+/*clearfix*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
