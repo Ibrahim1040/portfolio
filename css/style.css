@@ -64,7 +64,7 @@ body{
 }
 .listeBaseDeDonnees{
 	text-align: center;
-	padding-top: 5.2vw;
+	padding-top: 2.2vw;
 }
 
 .langueDe{
@@ -72,11 +72,20 @@ body{
 	/*top: 2vw;*/
 	/*left: 24vw;*/
 }
-hr.ligneTexteLangue{
+hr.ligneTexteLangueTechnologies{
 	position: absolute;	
 	border-color: #ffffff;
 	border-width: 3px;
-	width: 9.5%;
+	width: 21%;
+	/*margin-top: -5px;*/
+	top : 3vw;
+	left: 15.5vw;
+}
+hr.ligneTexteLangueLangage{
+	position: absolute;	
+	border-color: #ffffff;
+	border-width: 3px;
+	width: 12%;
 	/*margin-top: -5px;*/
 	top : 3vw;
 	left: 15.5vw;
@@ -87,9 +96,15 @@ hr.ligneTexteLangue{
 	top: 3.3vw;
 	left: 21.3vw;
 }
+.technologiesTexte{
+	font-size: 0.7vw;
+	position: absolute;
+	top: 3.3vw;
+	left: 25vw;
+}
 
 
-.lesOutils{
+.lesOutils,{
 	/*position:absolute;*/
 	top: 2vw;
 	left: 25vw;
@@ -104,9 +119,17 @@ hr.ligneTexteLangue{
 	top: 3.7vw;
 	left: 25vw;
 }
-.rectangle{
+.rectangleLangage{
  width:40vw;
- height:35vw;
+ height:45vw;
+ background:#171717;
+ margin:10px auto;
+ margin-top: 10vw;
+ padding-top: 3vw;
+}
+.rectangleTechnologies{
+ width:40vw;
+ height:37vw;
  background:#171717;
  margin:10px auto;
  margin-top: 10vw;
